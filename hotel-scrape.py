@@ -156,7 +156,7 @@ def new_data_dict():
 # Creating empty dictionary for storing
 scrape_dict = new_data_dict()
 
-# Looping through all the content from 0-1000
+# Looping through all the content (Change the second value to number of hotels you want to scrape)
 for num in range(0, 535, 25):
 
 	# Request for the URL and make soup
